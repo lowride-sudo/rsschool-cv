@@ -27,7 +27,7 @@ function multiply(a, b) {
 
 ### Experience
 + Projects
-    - [Github CV](https://github.com/lowride-sudo/rsschool-cv/tree/gh-pages)
+    - [Github CV](https://lowride-sudo.github.io/rsschool-cv/cv)
 
 
 ### Education
