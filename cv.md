@@ -6,9 +6,11 @@
 **Telegram** [@TokkSer](https://t.me/TokkSer)<br>
 **Github** [lowride-sudo](https://github.com/lowride-sudo)<br>
 **Discord** Lowwr#9683<br>
+
 ---
 ### About me 
-I'm 35 years old, junior qa engineer. Now I am studying programming to get a new profession. 
+I'm 35 years old, junior qa engineer. Now I am studying programming to get a new profession: Frontend Developer. In my leisure time i'm learn Computer Science.   
+
 ---
 ### Code example
 ```
@@ -16,18 +18,22 @@ function multiply(a, b) {
   return a * b
 } 
 ```
+
 ---
 ### Skills
 - HTML
 - CSS
-- Git
+- Git, Github
 - Javascript
 - Python
 - SQL
+
 ---
 ### Courses
-- "Python for beginners" on Stepik - [link](https://stepik.org/cert/1150968)
+- Stepik "Generation Python: course for beginners" - [link](https://stepik.org/cert/1150968)
+- Stepik "Generation Python: advanced course" - [link](https://stepik.org/course/68343)
 - RS School «JavaScript/Front-end. Stage 0» (in progress)
+---
 ### Languages
 - **English** - A2
 - **Russian** - Native
