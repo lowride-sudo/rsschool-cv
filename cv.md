@@ -1,11 +1,11 @@
 # Sergey Tokarev
 
 ### Contacts
-**Phone**: [+7 977 1493844](tel:+79771493844)<br>
-**E-mail:**: [nerd2@yandex.ru](mailto:nerd2@yandex.ru)<br>
-**Telegram**: [@TokkSer](https://t.me/TokkSer)<br>
-**Github**: [lowride-sudo](https://github.com/lowride-sudo)<br>
-**Discord**: Sergey Tokarev (@lowride-sudo)<br>
+**Phone:** [+7 977 1493844](tel:+79771493844)<br>
+**E-mail:** [nerd2@yandex.ru](mailto:nerd2@yandex.ru)<br>
+**Telegram:** [@TokkSer](https://t.me/TokkSer)<br>
+**Github:** [lowride-sudo](https://github.com/lowride-sudo)<br>
+**Discord:** Sergey Tokarev (@lowride-sudo)<br>
 
 
 ### About me 
