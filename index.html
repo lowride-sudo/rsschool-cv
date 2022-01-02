@@ -8,33 +8,111 @@
   <title>Document</title>
 </head>
 <body>
-  <div class="container" style="display: flex; flex-direction: column;">
-    <header>
-      <nav class ="navmenu" style="position: fixed; ">  
-        <ul style="display: flex">
-          <li><a href="">Contacts</a></li>
-          <li><a href="">About me</a></li>
-          <li><a href="">Skills</a></li>
-          <li><a href="">Code example</a></li>
-          <li><a href="">Experience</a></li>
-          <li><a href="">Education</a></li>
-          <li><a href="">Languages</a></li>
+  <header class="header">
+    <div class="header-container">
+      <nav class ="nav-menu">  
+        <ul class="nav-submenu">
+          <li class="nav-container">
+            <a class="nav-link on-hover" href="">About me</a>
+          </li>
+          <li class="nav-container">
+            <a class="nav-link on-hover" href="">Contacts</a>
+          </li>
+          <li class="nav-container">
+            <a class="nav-link on-hover" href="">Code example</a>
+          </li>
+          <li class="nav-container">
+            <a class="nav-link on-hover" href="">Experience</a>
+          </li>
+          <li class="nav-container">
+            <a class="nav-link on-hover" href="">Education</a>
+          </li>
+          <li class="nav-container">
+            <a class="nav-link on-hover" href="">Languages</a>
+          </li>
         </ul>
       </nav>
-    </header>
-    <main>
-      <section id="Contacts"></section>
-      <section id="About me"></section>
-      <section id="Skills"></section>
-      <section id="Code example"></section>
-      <section id="Experience"></section>
-      <section id="Education"></section>
-      <section id="Languages"></section>
-      <section></section>
-    </main>
-    <footer>
-      <div class="footer"></div>
-    </footer>
-  </div>
+    </div>
+  </header>
+
+  <main class="main">
+    <div class="container">
+      <section id="Profile">
+      <div>
+        <h1>Junior Frontend Developer</h1>
+        <h2>Tokarev Sergey</h2>
+      </div>
+      </section>
+      
+        
+      <section id="Contacts">
+        <div>
+          <ul>
+            <li><b>Phone:</b><a href="tel:+79771493844">+7 977 1493844</a></li>
+            <li><b>E-mail:</b><a href="mailto: nerd2@yandex.ru">nerd2@yandex.ru</a></li>
+            <li><b>Telegram:</b><a href="https://t.me/TokkSer">@TokkSer</a></li>
+            <li><b>Github:</b> <a href="https://github.com/lowride-sudo">lowride-sudo</a></li>
+            <li><b>Discord:</b> Sergey Tokarev (@lowride-sudo)</li>
+          </ul>
+        </div>
+      </section>
+
+      <section id="About me">
+        <h2>About me</h2>
+        I'm 35 years old, junior qa engineer. Now I am studying programming to get a new profession: Frontend Developer.
+      </section>
+
+      <section id="Skills">
+        <div>
+          <h2>Skills</h2>
+          <ul> 
+            <li>HTML</li> 
+            <li>CSS</li>
+            <li>Git, Github</li>
+            <li>Javascript</li>
+            <li>Python</li>
+          </ul>
+        </div>
+        
+      </section>
+
+      <section id="Code example">
+        <h2>Code example</h2>
+        <div>
+          function multiply(a, b) {
+            return a * b
+          } 
+        </div>
+      </section>
+
+      <section id="Experience">
+        <div>
+          <h2>Experience</h2>
+          <p>+ Projects</p> 
+          <p><a href="https://lowride-sudo.github.io/rsschool-cv/cv">Github CV</a></p>
+        </div>
+      </section>
+
+      <section id="Education">
+        <h2>Education</h2>
+      </section>
+
+      <section id="Languages">
+        <div>
+          <p><b>English</b> - A2</p>
+          <p><b>Russian</b> - Native</p>
+        </div>
+        <h2>Languages</h2>
+      </section>
+    </div>
+  </main>
+
+  <footer class="footer">
+
+    <div class="container footer-container">
+
+    </div>
+
+  </footer>
 </body>
 </html>
