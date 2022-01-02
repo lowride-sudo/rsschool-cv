@@ -13,10 +13,10 @@
       <nav class ="nav-menu">  
         <ul class="nav-submenu">
           <li class="nav-container">
-            <a class="nav-link on-hover" href="">About me</a>
+            <a class="nav-link on-hover" href="#About-me">About me</a>
           </li>
           <li class="nav-container">
-            <a class="nav-link on-hover" href="">Contacts</a>
+            <a class="nav-link on-hover" href="#Contacts">Contacts</a>
           </li>
           <li class="nav-container">
             <a class="nav-link on-hover" href="">Code example</a>
@@ -36,33 +36,28 @@
   </header>
 
   <main class="main">
-    <div class="container">
-      <section id="Profile">
-      <div>
-        <h1>Junior Frontend Developer</h1>
-        <h2>Tokarev Sergey</h2>
+    <div class="main-container">
+      <div class="empty_space">
+
       </div>
-      </section>
       
-        
-      <section id="Contacts">
-        <div>
-          <ul>
-            <li><b>Phone:</b><a href="tel:+79771493844">+7 977 1493844</a></li>
-            <li><b>E-mail:</b><a href="mailto: nerd2@yandex.ru">nerd2@yandex.ru</a></li>
-            <li><b>Telegram:</b><a href="https://t.me/TokkSer">@TokkSer</a></li>
-            <li><b>Github:</b> <a href="https://github.com/lowride-sudo">lowride-sudo</a></li>
-            <li><b>Discord:</b> Sergey Tokarev (@lowride-sudo)</li>
-          </ul>
+      <section id="Profile" class="profile container">
+        <div class="name">
+          <h1>Tokarev Sergey</h1>
+          <h2>Junior Frontend Developer</h2>        
+        </div>
+        <div class="photo-container">
+          <img src="./img/my_photo_small.png" alt="my-photo" class="photo">
         </div>
       </section>
-
-      <section id="About me">
+      
+      <section id="About-me" class="about-me container">
         <h2>About me</h2>
-        I'm 35 years old, junior qa engineer. Now I am studying programming to get a new profession: Frontend Developer.
+        <p> I'm 35 years old, junior QA-engineer.</p> 
+        <p> Now I am studying programming to get a new profession: Frontend Developer.</p>
       </section>
 
-      <section id="Skills">
+      <section id="Skills" class="skills container">
         <div>
           <h2>Skills</h2>
           <ul> 
@@ -75,42 +70,68 @@
         </div>
         
       </section>
-
-      <section id="Code example">
-        <h2>Code example</h2>
+        
+      <section id="Contacts" class="contacts container">
         <div>
-          function multiply(a, b) {
-            return a * b
-          } 
+          <h2>Contacts</h2>
+          <ul>
+            <li><b>Phone:</b><a href="tel:+79771493844">+7 977 1493844</a></li>
+            <li><b>E-mail:</b><a href="mailto: nerd2@yandex.ru">nerd2@yandex.ru</a></li>
+            <li><b>Telegram:</b><a href="https://t.me/TokkSer">@TokkSer</a></li>
+            <li><b>Github:</b> <a href="https://github.com/lowride-sudo">lowride-sudo</a></li>
+            <li><b>Discord:</b> Sergey Tokarev (@lowride-sudo)</li>
+          </ul>
         </div>
       </section>
 
-      <section id="Experience">
+
+
+      <section id="Code example" class="code-example container">
+        <h2>Code example</h2>
+        <pre class="code-block">
+          function multiply(a, b) {
+            return a * b
+          } 
+        </pre>
+      </section>
+
+      <section id="Experience" class="experience container">
         <div>
           <h2>Experience</h2>
-          <p>+ Projects</p> 
+          <h3>Projects</h3> 
           <p><a href="https://lowride-sudo.github.io/rsschool-cv/cv">Github CV</a></p>
         </div>
       </section>
 
-      <section id="Education">
+      <section id="Education" class="education container">
         <h2>Education</h2>
+        <div>
+          <h3>University</h3>  
+          <p>Russian State Social University, Organization Management</p> 
+          <h3>Courses</h3> 
+          <p>Stepik "Generation Python: course for beginners" <a href="https://stepik.org/cert/1150968">link</a></p>
+          <p>Stepik "Generation Python: advanced course" (in progress)  <a href="https://stepik.org/course/68343">link</a></p>
+          <p>RS School «JavaScript/Front-end. Stage 0» (in progress)  <a href="https://rs.school/js-stage0/">link</a></p>
+        </div>
       </section>
 
-      <section id="Languages">
+      <section id="Languages" class="languages container">
+        <h2>Languages</h2>
         <div>
           <p><b>English</b> - A2</p>
           <p><b>Russian</b> - Native</p>
         </div>
-        <h2>Languages</h2>
       </section>
     </div>
   </main>
 
   <footer class="footer">
-
-    <div class="container footer-container">
-
+    <div class="footer-container">
+      <div class="year">
+        <p> © 2021 by Sergey Tokarev</p>
+      </div>
+      <p></p>
+      <a href=""></a>
     </div>
 
   </footer>

@@ -1,30 +1,56 @@
 * {
     box-sizing: border-box;
+    font-family: "Ubuntu", sans-serif;
 }
 
-body,
-h1,
 ul {
   margin: 0;
+  padding:0;
+  line-height: 1.6;
 }
 
 
 
+h1 {
+    font-size: 40px;
+    margin: 0;
+    padding: 0px 0px 10px 0px;
+    color: red;
+}
+
+h2 {
+    font-size: 1.8em;
+    color: rgb(84, 83, 107);
+}
+
+h3 {
+    margin-bottom: 5px;
+}
+
+p {
+    margin-top: 3px;
+    font-size: 1.1em;
+    color: rgba(71, 84, 94, 0.986);
+}
+
 body {
+    display:block;
+    /* flex-direction: column; */
     max-width: 1200px;
     min-width: 600px;
     margin: 0 auto;
     font-family: 'Montserrat', sans-serif;
     padding: 1rem;
-    background-color: #e6e2d4;
+    background-color: #ffffff;
 }
 
-.container {
+.main-container {
     display: flex; 
-    flex-direction: column; 
+    flex-direction: row; 
+    flex-wrap: wrap;
     width: 1200px; 
-    background-color: grey;
-    padding: 10px;
+    background-color: white;
+    padding: 0px;
 }
 
 .header {
@@ -37,18 +63,31 @@ body {
     left: 0;
     box-sizing: border-box;
     padding: 0 20px;
+    border-bottom: 1px solid red;
+}
+
+.header-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    width: 1200px;
+    max-width: 100%;
+    left: 0;
+    border-top: 1px solid red;
+    
 }
 
 li {
     list-style-type: none;
 }
 
-.header-container {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    height: 100%;
-}
+
 
 .nav-menu {
     display: block;
@@ -58,6 +97,7 @@ li {
 
 .nav-submenu {
     display: flex;
+    line-height: 1.2;
 }
 
 .nav-container {
@@ -81,6 +121,52 @@ li {
     background-color: red;
     color: #fff;
 }
+
 .code-block {
-    color: #303133;
+    background-color: #5e5f63;
+    color: white;
+    padding-top: 5px;
+}
+
+.about-me {
+    min-width: 50%;
+}
+
+.skills {
+    min-width: 45%;
+}
+
+.empty_space {
+    top:0;
+    height: 60px;
+    width: 100%;
+}
+
+.container {
+    max-width: 50%;
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+    padding-bottom: 40px;
+    margin: 10px;
+    box-shadow: 0px 0px 13px 0px rgba(34, 60, 80, 0.2);
+    flex-grow: 1;
+
+}
+
+.profile {
+    display: flex;
+    max-width: 1200px;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 10px;
+
+}
+
+.photo-container {
+}
+
+.photo {
+    object-fit: cover;
+    border-radius: 5%;
 }
